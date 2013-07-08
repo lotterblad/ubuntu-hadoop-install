@@ -3,7 +3,7 @@
 LOG_FILE="hadoop_mahout_install.log"
 
 #get sun version of java for hadoop
-sudo wget https://github.com/flexiondotorg/oab-java6/raw/0.2.6/oab-java.sh -O oab-java.sh
+sudo wget https://github.com/flexiondotorg/oab-java6/raw/0.2.8/oab-java.sh -O oab-java.sh
 sudo chmod +x oab-java.sh
 sudo ./oab-java.sh
 sudo apt-get -y install --force-yes sun-java6-jre sun-java6-jdk sun-java6-plugin sun-java6-fonts
